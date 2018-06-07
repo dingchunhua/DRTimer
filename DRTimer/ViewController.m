@@ -18,13 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [DRTimer start:@"mark"];
+    [DRTimer start:@"方法1"];
     
     for (int i = 0; i < 10000; i ++) {
         
     }
     
-    [DRTimer stop:@"mark"];
+    [DRTimer stop:@"方法1"];
 }
 
 
